@@ -1,0 +1,375 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(./images/banner.jpg);
+    background-color: #d8d2d2;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Source Sans 3', sans-serif;
+}
+#menu{
+    display: none;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: f5f5f5;
+}
+#nav #left h1{
+    margin: 0px;
+    font-size: 18px;
+    
+}
+#nav #left h1 span{
+    font-weight: 100;
+    
+}
+#li{
+    margin-top: 0px;
+}
+#nav #right ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    align-items: center;
+    margin: 0px;
+}
+#nav #right ul li button{
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    width: 81px;
+    height: 41px;
+}
+
+#body{
+    text-align: center;
+    margin-top: 138px;
+    color: white;
+
+}
+#body h1{
+    color: white;
+    font-size: 56px;
+    margin-bottom: 0px;
+}
+#body p{
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+#body button{
+    color: gray;
+    border-radius: 5px;
+    width: 218px;
+    height: 51px;
+    border: none;
+    margin-right: 20px;
+}
+#body #bt{
+ background-color: transparent;
+color: white;
+border: 2px solid lightgray;
+}
+#intro{
+    background-color: white;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    border-radius: 8px;
+    padding-top: 60px;
+    margin-top: 150px;
+    color: gray;
+    margin-bottom: 30px;
+}
+#intro h1{
+    font-size: 35px;
+    
+}
+#intro img{
+    width: 100%;
+}
+#intro p{
+    border-top: 2px solid  #e8e8e8;
+    width: 60%;
+    margin: auto;
+    font-size: 21px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+#signup{
+    text-align: center;
+    background-color:  #e89980;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#signup h1{
+    font-size: 40px;
+}
+#signup p{
+   font-size: 17px;
+}
+#signup input{
+    background-color: #eba893;
+    width: 270px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 10px;
+    color: white;
+    padding-left: 20px;
+    font-size: 16px;
+}
+#signup button{
+ background-color: white;
+ width: 127px;;
+ height: 51px;
+ color: #e89980;
+ border-radius: 10px;
+ border: white;
+ margin-top: 20px;
+ font-size: 16px;
+}
+#social #footer{
+    text-align: center;
+    color: 
+    #c6c6c6 ;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+i{
+    padding: 10px;
+    margin-top: 50px;
+}
+#social #footer1{
+    display: flex;
+    justify-content: center;
+    border-right: 2px solid gray;
+    padding-bottom: 70px;
+}
+#social #footer1 p{
+    padding-right: 10px;
+    padding-left: 10px;
+    color: gray;
+}
+span{
+    border-bottom: 1px dotted gray;
+}
+#email::placeholder{
+    color: white;
+}
+#icon{
+    background-color: white;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    border-radius: 8px;
+    display: flex;
+    padding-top: 40px;
+
+}
+#icon h1{
+    color: gray ;
+}
+#icon p{
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 40px;
+}
+#newicon{
+    background-color: white;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+    display: flex;
+
+
+}
+#newicon p{
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 40px;
+}
+#newicon h1{
+    color: gray;
+}
+#newicon i{
+    font-size: 50px;
+    font-size: 50px;
+    color: white;
+    border-radius: 100%;
+    width: 80px;
+    height: 60px;
+    padding-top: 27px;
+    margin-top: 50px;
+}
+#icon i{
+    font-size: 50px;
+    color: white;
+    border-radius: 100%;
+    width: 80px;
+    height: 60px;
+    padding-top: 27px;
+}
+#ic1{
+    background-color: #e89980 ;
+    color: white;
+}
+#ic2{
+    background-color: #7fcdb8 ;
+    color: white;
+}
+#ic3{
+    background-color:#90b0ba ;
+    color: white;
+}
+#ic4{
+    background-color:#e5cb95 ;
+    color: white;
+}
+#icon #icon1{
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+#newicon #icon3{
+    border-right: 1px solid lightgray;
+}
+#newicon #icon4{
+    border-top: 1px solid lightgray;
+}
+#card{
+    background-color: c6c6c6;
+    text-align: center;
+    width: 70%;
+    gap: 30px;
+    margin: auto;
+    border-radius: 8px;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+#card div{
+    width: 70%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 5px;
+   
+}
+#card div img{
+    width: 100%;
+}
+#card div h1{
+    padding-top: 20px;
+    color: #71767b;
+    font-size: 27px;
+}
+#card div p{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#card div button{
+    background-color:white ;
+    color: #858585;
+    border:3px solid #e9e9e9;
+    border-radius: 5px;
+    width: 151px;
+    height: 50px;
+    margin-top: 22px ;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+
+/* -----Mobile version--- */
+
+@media (max-width:600px){
+    body{
+        background-size: 195%;
+        background-position-x: center;
+    }
+    #nav{
+        display: none;
+    }
+    #menu{
+        display: inline-block;
+        color: white;
+        background-color: rgba(192, 192, 192, 0.75);
+        padding: 10px 18px;
+        border-radius: 4px;
+        margin: 10px 0px 0px 10px;
+    }
+    #body{
+      
+       
+        width: 80%;
+        margin: auto;
+        margin-top: 0px;
+
+    }
+    #body h1{
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    #body p{
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+    #body button{
+       
+        width: 100%;
+        height: 45px;
+        margin-bottom: 18px;
+    }
+    #intro{
+        width: 100%;
+        padding-top: 30px;
+        margin-top: 39px;
+        color: gray;
+        margin-bottom: 20px;
+    }
+    #intro h1{
+        font-size: 25px;
+    }
+    #intro p{
+        width: 90%;
+        margin: auto;
+        font-size: 20px;
+    }
+    br{
+        display: none;
+    }
+    #signup{
+       
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+    #signup h1{
+        font-size: 25px;
+    }
+    #signup p{
+        font-size: 16px;
+        width: 90%;
+        margin: auto;
+    }
+    #signup input{
+       
+        width: 70%px;
+        margin: auto;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    #signup button{
+        
+        width: 70%;
+        margin: auto;
+     
+       }
+}
